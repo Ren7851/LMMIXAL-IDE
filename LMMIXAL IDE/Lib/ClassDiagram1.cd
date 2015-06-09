@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lib.Cache" Collapsed="true">
+    <Position X="241.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Byte">
+    <Position X="243.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAARAAAAAAAECAgAEgAAAiACgAAgAAAgCAAAAAA=</HashCode>
+      <FileName>Computer\Byte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Pair" Collapsed="true">
+    <Position X="234" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Computer" Collapsed="true">
+    <Position X="242" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAEJQwCAEQIEKAKAgwgCABACAIJICAQUAQY4ACDs=</HashCode>
+      <FileName>Computer\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Memory">
+    <Position X="239" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAACAwAAAAAAQAAAAAQAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Memory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.OctoByte">
+    <Position X="241" Y="11.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAEiAgAAgAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\OctoByte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Program" Collapsed="true">
+    <Position X="246.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAAAAEAAAABAAAAAAAAABAAE=</HashCode>
+      <FileName>Computer\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Scale" Collapsed="true">
+    <Position X="233.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAEAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Scale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BADD" Collapsed="true">
+    <Position X="67.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BADD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BDIV" Collapsed="true">
+    <Position X="70" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BDIV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BMOD" Collapsed="true">
+    <Position X="72.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BMOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BMULT" Collapsed="true">
+    <Position X="61" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BMULT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BPOW" Collapsed="true">
+    <Position X="63.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BPOW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.BSUB" Collapsed="true">
+    <Position X="65.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\BSUB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ByteArithmeticCommands.ByteArithmeticCommand" Collapsed="true">
+    <Position X="66.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAABAAA=</HashCode>
+      <FileName>Computer\Commands\ByteArithmeticCommands\ByteArithmeticCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.CALL" Collapsed="true">
+    <Position X="97" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\CALL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.CEIL" Collapsed="true">
+    <Position X="101.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\CEIL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.CLRMEMORY" Collapsed="true">
+    <Position X="112.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\CLRMEMORY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.Command">
+    <Position X="115.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAgAgAAAgQEQAAGBAAgAAAAAACAAAAQgIBAAEAAQ=</HashCode>
+      <FileName>Computer\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lib.Computer.Commands.DEC" Collapsed="true">
+    <Position X="178" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\DEC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DADD" Collapsed="true">
+    <Position X="40.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DADD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DDIV" Collapsed="true">
+    <Position X="43" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DDIV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DLOG" Collapsed="true">
+    <Position X="45.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DLOG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DMOD" Collapsed="true">
+    <Position X="29.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DMOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DMULT" Collapsed="true">
+    <Position X="31.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DMULT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DoubleArithmeticCommand" Collapsed="true">
+    <Position X="37.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DoubleArithmeticCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DPOW" Collapsed="true">
+    <Position X="34" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DPOW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DSQRT" Collapsed="true">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DSQRT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DSUB" Collapsed="true">
+    <Position X="38.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\DoubleArithmeticCommands\DSUB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.DTOL" Collapsed="true">
+    <Position X="113.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\DTOL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.Empty" Collapsed="true">
+    <Position X="160" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\Empty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.EXPR" Collapsed="true">
+    <Position X="180.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\EXPR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.FLOOR" Collapsed="true">
+    <Position X="196" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\FLOOR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.HALT" Collapsed="true">
+    <Position X="205" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\HALT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ENDIF" Collapsed="true">
+    <Position X="214" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ENDIF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.IF" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgAAAgAAAAAAAAAAAAAAAAAAAABQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\IF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LEQUAL" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\LEQUAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LLESS" Collapsed="true">
+    <Position X="47.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\LLESS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LMORE" Collapsed="true">
+    <Position X="74.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\LMORE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.IN" Collapsed="true">
+    <Position X="99.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\IN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.INC" Collapsed="true">
+    <Position X="103.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\INC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.IS" Collapsed="true">
+    <Position X="117.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\IS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommand" Collapsed="true">
+    <Position X="167.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LongArithmeticCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LTOD" Collapsed="true">
+    <Position X="182.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\LTOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.MOV" Collapsed="true">
+    <Position X="198.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAQAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\MOV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ANDO" Collapsed="true">
+    <Position X="85.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\ANDO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.EQVO" Collapsed="true">
+    <Position X="88" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\EQVO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.NANDO" Collapsed="true">
+    <Position X="76.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\NANDO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.NORO" Collapsed="true">
+    <Position X="79" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\NORO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.NOT" Collapsed="true">
+    <Position X="49.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\NOT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.OctoBoolCommand" Collapsed="true">
+    <Position X="82.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\OctoBoolCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ORO" Collapsed="true">
+    <Position X="81.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\ORO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.XORO" Collapsed="true">
+    <Position X="83.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\XORO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.PAUSE" Collapsed="true">
+    <Position X="119.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\PAUSE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.POP" Collapsed="true">
+    <Position X="175.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\POP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.PUSH" Collapsed="true">
+    <Position X="184.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\PUSH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.RANDOMB" Collapsed="true">
+    <Position X="200.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\RANDOMB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.RANDOMD" Collapsed="true">
+    <Position X="207.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\RANDOMD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.RANDOML" Collapsed="true">
+    <Position X="216.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\RANDOML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.RET" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\RET.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ROUND" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ROUND.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.SUB" Collapsed="true">
+    <Position X="52" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\SUB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.TRAP" Collapsed="true">
+    <Position X="90.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\TRAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.PerfomanceExplorer" Collapsed="true">
+    <Position X="246.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Computer\PerfomanceExplorer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.ConsoleInputCommand" Collapsed="true">
+    <Position X="108.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\ConsoleInputCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.INB" Collapsed="true">
+    <Position X="121.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAgAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\INB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.IND" Collapsed="true">
+    <Position X="106" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\IND.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.INH" Collapsed="true">
+    <Position X="108.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\INH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.INL" Collapsed="true">
+    <Position X="110.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\INL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.OUTB" Collapsed="true">
+    <Position X="209.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\OUTB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.OUTD" Collapsed="true">
+    <Position X="218.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\OUTD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.OUTH" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\OUTH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.OUTL" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\OUTL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.WRITE" Collapsed="true">
+    <Position X="54.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\WRITE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.ConsolelCommands.WRITELN" Collapsed="true">
+    <Position X="92.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\ConsolelCommands\WRITELN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.GOTO" Collapsed="true">
+    <Position X="187" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\GOTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.GOTONEG" Collapsed="true">
+    <Position X="189.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\GOTONEG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.GOTOPOS" Collapsed="true">
+    <Position X="191.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\GOTOPOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.GOTOZERO" Collapsed="true">
+    <Position X="193.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\GOTOZERO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.Jump" Collapsed="true">
+    <Position X="190.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\Jump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.GOTO.LABEL" Collapsed="true">
+    <Position X="202.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\GOTO\LABEL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.BEQUAL" Collapsed="true">
+    <Position X="211.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\BEQUAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.BLESS" Collapsed="true">
+    <Position X="220.75" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="Lib.Computer.Commands.Command" FixedFromPoint="true">
+      <Path>
+        <Point X="115.688" Y="5.039" />
+        <Point X="115.688" Y="5.414" />
+        <Point X="132.417" Y="5.414" Type="JumpStart" />
+        <Point X="132.583" Y="5.414" Type="JumpEnd" />
+        <Point X="220.375" Y="5.414" />
+        <Point X="220.375" Y="2.065" />
+        <Point X="220.75" Y="2.065" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\BLESS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.BMORE" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\BMORE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.DEQUAL" Collapsed="true">
+    <Position X="25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\DEQUAL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.DLESS" Collapsed="true">
+    <Position X="56.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\DLESS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.DMORE" Collapsed="true">
+    <Position X="94.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\DMORE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CondElseDoNothing" Collapsed="true">
+    <Position X="131.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CondElseDoNothing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CondElseSetZero" Collapsed="true">
+    <Position X="149.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CondElseSetZero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ConditionCommand" Collapsed="true">
+    <Position X="140.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ConditionCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSEV" Collapsed="true">
+    <Position X="130.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSEV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSN" Collapsed="true">
+    <Position X="133" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSNN" Collapsed="true">
+    <Position X="135.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSNN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSNP" Collapsed="true">
+    <Position X="137.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSNP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSNZ" Collapsed="true">
+    <Position X="139.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSNZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSOD" Collapsed="true">
+    <Position X="132.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSP" Collapsed="true">
+    <Position X="126.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.CSZ" Collapsed="true">
+    <Position X="128.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\CSZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSEV" Collapsed="true">
+    <Position X="142" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSEV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSN" Collapsed="true">
+    <Position X="144.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSNN" Collapsed="true">
+    <Position X="146.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSNN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSNP" Collapsed="true">
+    <Position X="148.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSNP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSNZ" Collapsed="true">
+    <Position X="151" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSNZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSOD" Collapsed="true">
+    <Position X="153.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSP" Collapsed="true">
+    <Position X="155.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ConditionActions.ZSZ" Collapsed="true">
+    <Position X="157.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ConditionActions\ZSZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.Element" Collapsed="true">
+    <Position X="23.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.Expression" Collapsed="true">
+    <Position X="234" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEAAAAAAAACCABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.LeftBracket" Collapsed="true">
+    <Position X="5.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\LeftBracket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.Operation" Collapsed="true">
+    <Position X="22" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAIQAAAAEAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationAdd" Collapsed="true">
+    <Position X="14.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationAnd" Collapsed="true">
+    <Position X="18.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationAnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationDiv" Collapsed="true">
+    <Position X="23.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationDiv.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationEqual" Collapsed="true">
+    <Position X="25.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationLess" Collapsed="true">
+    <Position X="27.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationLess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationLessEqual" Collapsed="true">
+    <Position X="30" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationLessEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationMod" Collapsed="true">
+    <Position X="32.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationMod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationMore" Collapsed="true">
+    <Position X="34.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationMore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationMoreEqual" Collapsed="true">
+    <Position X="36.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationMoreEqual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationMult" Collapsed="true">
+    <Position X="7.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationMult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationNot" Collapsed="true">
+    <Position X="9.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationNot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationOr" Collapsed="true">
+    <Position X="12" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationOr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationPow" Collapsed="true">
+    <Position X="16.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationPow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.OperationSub" Collapsed="true">
+    <Position X="21" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\OperationSub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.RightBracket" Collapsed="true">
+    <Position X="39" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\RightBracket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.If.ExpressionsParsing.Value" Collapsed="true">
+    <Position X="41.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAEgAAAAAAAAAAIACAAAAAAAAAAgAA=</HashCode>
+      <FileName>Computer\Commands\If\ExpressionsParsing\Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LADD" Collapsed="true">
+    <Position X="164.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LADD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LDIV" Collapsed="true">
+    <Position X="166.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LDIV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LMOD" Collapsed="true">
+    <Position X="169" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LMOD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LMULT" Collapsed="true">
+    <Position X="171.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LMULT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LPOW" Collapsed="true">
+    <Position X="173.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LPOW.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.LongArithmeticCommands.LSUB" Collapsed="true">
+    <Position X="162.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAABAAA=</HashCode>
+      <FileName>Computer\Commands\LongArithmeticCommands\LSUB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.OctoBoolCommands.SHL" Collapsed="true">
+    <Position X="27.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\SHL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.Commands.OctoBoolCommands.SHR" Collapsed="true">
+    <Position X="58.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAgAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAA=</HashCode>
+      <FileName>Computer\Commands\OctoBoolCommands\SHR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.MakeProgram.Checker" Collapsed="true">
+    <Position X="240.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\MakeProgram\Checker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Computer.MakeProgram.ProgramMaker" Collapsed="true">
+    <Position X="246.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAA=</HashCode>
+      <FileName>Computer\MakeProgram\ProgramMaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Exceptions.NoSuchLabelException" Collapsed="true">
+    <Position X="246.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\NoSuchLabelException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lib.Utils.Utils" Collapsed="true">
+    <Position X="234" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAIEAAAAABACAAKQEACAAAAggAggCAhAAAIA=</HashCode>
+      <FileName>Utils\Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Lib.Computer.Format" Collapsed="true">
+    <Position X="234" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Computer\Byte.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

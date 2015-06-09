@@ -1,0 +1,13 @@
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\bin\Release\CW2.exe.config
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\bin\Release\CW2.exe
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\bin\Release\CW2.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\bin\Release\Lib.dll
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\bin\Release\Lib.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.csprojResolveAssemblyReference.cache
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW.Assembler.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.Properties.Resources.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.SetRegister.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.UserInput.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.csproj.GenerateResource.Cache
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.exe
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Release\CW2.pdb

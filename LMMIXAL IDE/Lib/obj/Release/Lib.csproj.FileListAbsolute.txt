@@ -1,0 +1,5 @@
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\bin\Release\Lib.dll
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\bin\Release\Lib.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Release\Lib.csprojResolveAssemblyReference.cache
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Release\Lib.dll
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Release\Lib.pdb

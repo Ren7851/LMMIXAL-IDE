@@ -1,0 +1,11 @@
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\bin\Debug\CW.exe.config
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.csprojResolveAssemblyReference.cache
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.Form1.resources
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.Properties.Resources.resources
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.csproj.GenerateResource.Cache
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\bin\Debug\CW.exe
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\bin\Debug\CW.pdb
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\bin\Debug\Lib.dll
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\bin\Debug\Lib.pdb
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.exe
+c:\users\1\documents\visual studio 2012\Projects\CW\CW\obj\Debug\CW.pdb

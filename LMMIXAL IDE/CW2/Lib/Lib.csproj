@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{467BCAAF-6FCC-4C51-9CE5-9FE49F796E70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lib</RootNamespace>
+    <AssemblyName>Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Computer\Byte.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\ByteArithmeticCommand.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BADD.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BDIV.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BMOD.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BMULT.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BPOW.cs" />
+    <Compile Include="Computer\Commands\ByteArithmeticCommands\BSUB.cs" />
+    <Compile Include="Computer\Commands\CALL.cs" />
+    <Compile Include="Computer\Commands\CEIL.cs" />
+    <Compile Include="Computer\Commands\CLRMEMORY.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\ConsoleInputCommand.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\INB.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\IND.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\INL.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\INH.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\OUTB.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\OUTD.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\OUTH.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\OUTL.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\WRITE.cs" />
+    <Compile Include="Computer\Commands\ConsolelCommands\WRITELN.cs" />
+    <Compile Include="Computer\Commands\DEC.cs" />
+    <Compile Include="Computer\Commands\DTOL.cs" />
+    <Compile Include="Computer\Commands\Empty.cs" />
+    <Compile Include="Computer\Commands\FLOOR.cs" />
+    <Compile Include="Computer\Commands\EXPR.cs" />
+    <Compile Include="Computer\Commands\GOTO\GOTO.cs" />
+    <Compile Include="Computer\Commands\GOTO\GOTONEG.cs" />
+    <Compile Include="Computer\Commands\GOTO\GOTOPOS.cs" />
+    <Compile Include="Computer\Commands\GOTO\GOTOZERO.cs" />
+    <Compile Include="Computer\Commands\GOTO\Jump.cs" />
+    <Compile Include="Computer\Commands\GOTO\LABEL.cs" />
+    <Compile Include="Computer\Commands\HALT.cs" />
+    <Compile Include="Computer\Commands\If\BEQUAL.cs" />
+    <Compile Include="Computer\Commands\If\BLESS.cs" />
+    <Compile Include="Computer\Commands\If\BMORE.cs" />
+    <Compile Include="Computer\Commands\If\DEQUAL.cs" />
+    <Compile Include="Computer\Commands\If\DLESS.cs" />
+    <Compile Include="Computer\Commands\If\DMORE.cs" />
+    <Compile Include="Computer\Commands\If\ENDIF.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\Element.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\Expression.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\LeftBracket.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\Operation.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationAdd.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationAnd.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationDiv.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationEqual.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationLess.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationLessEqual.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationMod.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationMore.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationMoreEqual.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationMult.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationNot.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationOr.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationPow.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\OperationSub.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\RightBracket.cs" />
+    <Compile Include="Computer\Commands\If\ExpressionsParsing\Value.cs" />
+    <Compile Include="Computer\Commands\If\LEQUAL.cs" />
+    <Compile Include="Computer\Commands\If\IF.cs" />
+    <Compile Include="Computer\Commands\If\LLESS.cs" />
+    <Compile Include="Computer\Commands\If\LMORE.cs" />
+    <Compile Include="Computer\Commands\INC.cs" />
+    <Compile Include="Computer\Commands\IS.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LADD.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LDIV.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LMOD.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LMULT.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LongArithmeticCommand.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LPOW.cs" />
+    <Compile Include="Computer\Commands\LongArithmeticCommands\LSUB.cs" />
+    <Compile Include="Computer\Commands\LTOD.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\ANDO.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\EQVO.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\NANDO.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\NORO.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\NOT.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\OctoBoolCommand.cs" />
+    <Compile Include="Computer\Commands\Command.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DADD.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DDIV.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DLOG.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DMOD.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DMULT.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DoubleArithmeticCommand.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DPOW.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DSQRT.cs" />
+    <Compile Include="Computer\Commands\DoubleArithmeticCommands\DSUB.cs" />
+    <Compile Include="Computer\Commands\IN.cs" />
+    <Compile Include="Computer\Commands\MOV.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\ORO.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\SHL.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\SHR.cs" />
+    <Compile Include="Computer\Commands\OctoBoolCommands\XORO.cs" />
+    <Compile Include="Computer\Commands\PAUSE.cs" />
+    <Compile Include="Computer\Commands\POP.cs" />
+    <Compile Include="Computer\Commands\PUSH.cs" />
+    <Compile Include="Computer\Commands\RANDOMB.cs" />
+    <Compile Include="Computer\Commands\RANDOMD.cs" />
+    <Compile Include="Computer\Commands\RANDOML.cs" />
+    <Compile Include="Computer\Commands\RET.cs" />
+    <Compile Include="Computer\Commands\ROUND.cs" />
+    <Compile Include="Computer\Commands\SUB.cs" />
+    <Compile Include="Computer\Commands\TRAP.cs" />
+    <Compile Include="Computer\Computer.cs" />
+    <Compile Include="Computer\MakeProgram\Checker.cs" />
+    <Compile Include="Computer\Memory.cs" />
+    <Compile Include="Computer\OctoByte.cs" />
+    <Compile Include="Computer\Program.cs" />
+    <Compile Include="Computer\MakeProgram\ProgramMaker.cs" />
+    <Compile Include="Exceptions\NoSuchLabelException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Computer\Console\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

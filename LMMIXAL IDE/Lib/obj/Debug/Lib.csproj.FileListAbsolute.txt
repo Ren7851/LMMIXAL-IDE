@@ -1,0 +1,25 @@
+c:\Users\1\documents\visual studio 2012\Projects\CW\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+c:\Users\1\documents\visual studio 2012\Projects\CW\Lib\bin\Debug\Lib.dll
+c:\Users\1\documents\visual studio 2012\Projects\CW\Lib\bin\Debug\Lib.pdb
+c:\Users\1\documents\visual studio 2012\Projects\CW\Lib\obj\Debug\Lib.dll
+c:\Users\1\documents\visual studio 2012\Projects\CW\Lib\obj\Debug\Lib.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Debug\Lib.dll
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\obj\Debug\Lib.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\bin\Debug\Lib.dll
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\Lib\bin\Debug\Lib.pdb
+C:\Users\1\Desktop\курсач\CW2\Lib\bin\Debug\Lib.dll
+C:\Users\1\Desktop\курсач\CW2\Lib\bin\Debug\Lib.pdb
+C:\Users\1\Desktop\курсач\CW2\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\курсач\CW2\Lib\obj\Debug\Lib.dll
+C:\Users\1\Desktop\курсач\CW2\Lib\obj\Debug\Lib.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\Lib\bin\Debug\Lib.dll
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\Lib\bin\Debug\Lib.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\Lib\obj\Debug\Lib.dll
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\Lib\obj\Debug\Lib.pdb
+C:\Users\Ren\Downloads\folder\CW2\Lib\bin\Debug\Lib.dll
+C:\Users\Ren\Downloads\folder\CW2\Lib\bin\Debug\Lib.pdb
+C:\Users\Ren\Downloads\folder\CW2\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+C:\Users\Ren\Downloads\folder\CW2\Lib\obj\Debug\Lib.dll
+C:\Users\Ren\Downloads\folder\CW2\Lib\obj\Debug\Lib.pdb

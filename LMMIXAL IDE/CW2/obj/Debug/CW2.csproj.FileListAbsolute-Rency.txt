@@ -1,0 +1,42 @@
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\bin\Debug\CW2.exe.config
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\obj\Debug\CW2.csprojResolveAssemblyReference.cache
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\obj\Debug\CW2.Properties.Resources.resources
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\obj\Debug\CW2.csproj.GenerateResource.Cache
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\bin\Debug\CW2.exe
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\bin\Debug\CW2.pdb
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\bin\Debug\Lib.dll
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\bin\Debug\Lib.pdb
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\obj\Debug\CW2.exe
+c:\users\1\documents\visual studio 2012\Projects\CW2\CW2\obj\Debug\CW2.pdb
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Debug\CW.Assembler.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Debug\CW2.UserInput.resources
+C:\Users\1\Documents\Visual Studio 2012\Projects\CW2\CW2\obj\Debug\CW2.SetRegister.resources
+C:\Users\1\Desktop\курсач\CW2\CW2\bin\Debug\CW2.exe.config
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.exe
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.pdb
+C:\Users\1\Desktop\курсач\CW2\CW2\bin\Debug\CW2.exe
+C:\Users\1\Desktop\курсач\CW2\CW2\bin\Debug\CW2.pdb
+C:\Users\1\Desktop\курсач\CW2\CW2\bin\Debug\Lib.dll
+C:\Users\1\Desktop\курсач\CW2\CW2\bin\Debug\Lib.pdb
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW.Assembler.resources
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.Properties.Resources.resources
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.SetRegister.resources
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.UserInput.resources
+C:\Users\1\Desktop\курсач\CW2\CW2\obj\Debug\CW2.csproj.GenerateResource.Cache
+C:\Users\1\OneDrive\важный бекап\CW2\CW2\bin\Debug\CW2.exe.config
+C:\Users\1\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.exe
+C:\Users\1\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\bin\Debug\CW2.exe.config
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.exe
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\bin\Debug\CW2.exe
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\bin\Debug\CW2.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\bin\Debug\Lib.dll
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\bin\Debug\Lib.pdb
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.csprojResolveAssemblyReference.cache
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW.Assembler.resources
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.Properties.Resources.resources
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.SetRegister.resources
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.UserInput.resources
+C:\SD\NewSkyDrive\OneDrive\важный бекап\CW2\CW2\obj\Debug\CW2.csproj.GenerateResource.Cache
